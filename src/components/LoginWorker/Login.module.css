@@ -1,0 +1,66 @@
+/* Style for the login modal */
+.Modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 40px;
+	border-radius: 5px;
+	width: 400px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the login form */
+.login__form {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Style for the login input fields */
+.login__input {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 10px;
+	background-color: #fff;
+	color: #242424;
+	width: 100%;
+}
+
+/* Style for the login submit button */
+.login__button[type="submit"] {
+	background-color: #242424;
+	margin-top: 20px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login__h2 {
+	padding-bottom: 30px;
+}
+
+.login__label {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: flex-start;
+}
+
+.login__enter {
+	background-color: #00000067;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login__enter:hover {
+	background-color: #00000093;
+}

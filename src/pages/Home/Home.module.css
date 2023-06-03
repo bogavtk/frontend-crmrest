@@ -1,0 +1,58 @@
+.home {
+  background-image: url('../../assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+.home::after {
+  content: '';
+  background: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+}
+
+.home__wrapper {
+  display: flex;
+  padding-top: 60px;
+  gap: 20px;
+}
+
+.home__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.home__right {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.reg_wrapper {
+  padding-top: 30px;
+}
+
+.reg_link {
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+.reg_link:hover {
+  color: #cacaca;
+  border: 1px solid #cacaca;
+}
